@@ -143,7 +143,7 @@ nav ul li{
     background-color: rgba(255, 255, 255, 0.5);
     height: 342px;
     width: 1140px;
-    margin: 0px 149px 92px 151px;
+    margin: 0px 149px 137px 151px;
 }
 .hey-all{
     font-size: 42px;
@@ -173,6 +173,51 @@ nav ul li{
 .reviewer{
     display: flex;
 }
+/* ready-to-focus-section styles */
+.ready-to-focus{
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 697px;
+    margin: 0px 149px 92px 151px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.noise{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    display: inline-flex;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.presence{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.started-btn{
+    text-align: center;
+    height: 48px;
+    width: 195px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.wc-bigger{
+    height: 365px;
+    width: 840px;
+    border-radius: 48px;
+    /* margin-top: 70px; */
+    /* margin-bottom: 40px; */
+}
+
+
 
 /* get-in-touch-section styles */
 
