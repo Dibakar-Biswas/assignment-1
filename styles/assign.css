@@ -104,3 +104,33 @@ nav ul li{
     border-radius: 48px;
     margin-left: 282px;
 }
+
+/* productive-user-section styles */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    height: 306px;
+    width: 1140px;
+    border-radius: 26px;
+    margin: 0px 159px 137px 141px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.thousand{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: -100px;
+}
+.data{
+    justify-content:space-around;
+    display: flex;
+    margin-top: 100px;
+}
+.kine{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 10px;
+}
