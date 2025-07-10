@@ -141,7 +141,7 @@ nav ul li{
     background-color: rgba(255, 255, 255, 0.5);
     height: 342px;
     width: 1140px;
-    margin: 0px 149px 137px 151px;
+    margin: 0px 149px 92px 151px;
 }
 .hey-all{
     font-size: 42px;
@@ -170,4 +170,56 @@ nav ul li{
 }
 .reviewer{
     display: flex;
+}
+
+/* get-in-touch-section styles */
+
+.get-in-touch{
+    background-color: #FFFFFF;
+    width: 1140px;
+    height: 632px;
+    margin: 0px 150px 14px 150px;
+    display: flex;
+}
+.get-in{
+    font-family: "Inter", sans-serif;
+    font-size: 67px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 100px;
+}
+.national-park{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 99px;
+}
+label {
+    font-family:sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #1E1E1E;
+}
+input,textarea {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-top: -12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: #111827;
+}
+.goat{
+    height: 62px;
+    width: 497px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #0b05b3;
 }
