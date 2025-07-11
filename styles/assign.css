@@ -1,7 +1,8 @@
 .raleway{
-  font-family: "Raleway Dots", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+  /* font-family: "Raleway Dots", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* header-section styles */
@@ -122,12 +123,13 @@ nav ul li{
     font-size: 38px;
     font-weight: bold;
     color: #252432;
+    display: inline-flex;
     margin-bottom: -100px;
 }
 .data{
     justify-content:space-around;
     display: flex;
-    margin-top: 100px;
+    margin-top: -30px;
 }
 .kine{
     font-family: "Inter", sans-serif;
@@ -173,6 +175,8 @@ nav ul li{
 .reviewer{
     display: flex;
 }
+
+
 /* ready-to-focus-section styles */
 .ready-to-focus{
     background-color: #FFFFFF;
@@ -290,8 +294,16 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-.class-mate{
+/* .class-mate{
     display: flex;
     justify-content: center;
     gap: 40px;
+     class="class-mate"
+} */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-decoration: none;
 }
