@@ -19,28 +19,24 @@
     justify-content: space-around;
     gap: 550px;
 }
-nav{
-    text-decoration: none;
-    
-}
 nav ul{
     display: flex;
-}
-nav ul li{
     list-style: none;
+    text-decoration: none;
 }
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  display: inline-flexbox;
   font-weight:bold;
   font-style: normal;
   color: #4E47FF;
   font-size: 34px;
-  margin-top: 5px;
+  margin-top: 50px;
 }
-
-
 .btn-sign{
+    /* display: inline-flex; */
+    margin-top: 50px;
     height: 48px;
     width: 132px;
     color: #FFFFFF;
@@ -51,7 +47,7 @@ nav ul li{
 }
 .agency{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .dark{
     color: #252432;
@@ -294,16 +290,8 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-/* .class-mate{
+.class-mate{
     display: flex;
     justify-content: center;
     gap: 40px;
-     class="class-mate"
-} */
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    text-decoration: none;
 }
